@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senai.sp.controller.ControllerLogin">
+   <children>
+      <Text layoutX="306.0" layoutY="334.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuário:" wrappingWidth="100.13671875">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtUsuario" layoutX="304.0" layoutY="351.0" prefHeight="38.0" prefWidth="393.0" promptText="Digite seu usuário..." />
+      <Text layoutX="306.0" layoutY="432.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Senha:" wrappingWidth="79.13671875">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="447.0" layoutY="521.0" mnemonicParsing="false" onAction="#Autenticar" prefHeight="52.0" prefWidth="108.0" text="Entrar" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="401.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/logoBrecho.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="txtSenha" layoutX="304.0" layoutY="445.0" prefHeight="38.0" prefWidth="393.0" promptText="Digite sua senha..." />
+   </children>
+</AnchorPane>

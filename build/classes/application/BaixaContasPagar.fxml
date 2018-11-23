@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senai.sp.controller.ControllerBaixaPagar">
+   <children>
+      <Pane>
+         <children>
+            <Text layoutX="339.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PAGAR CONTAS" textAlignment="CENTER" wrappingWidth="322.78125">
+               <font>
+                  <Font size="27.0" />
+               </font>
+            </Text>
+            <Pane prefHeight="149.0" prefWidth="1000.0" style="-fx-background-color: #dcdcdc;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/logoBrecho.png" />
+                     </image>
+                  </ImageView>
+                  <Pane layoutX="290.0" layoutY="37.0" prefHeight="75.0" prefWidth="420.0">
+                     <children>
+                        <Text layoutX="13.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bem vindo(a) ao Sistema da Empresa!" wrappingWidth="394.0">
+                           <font>
+                              <Font name="System Bold" size="22.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="786.0" layoutY="1.0" prefHeight="149.0" prefWidth="200.0">
+                     <children>
+                        <Text layoutX="60.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="80.13671875">
+                           <font>
+                              <Font size="22.0" />
+                           </font>
+                        </Text>
+                        <Button layoutX="57.0" layoutY="75.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="87.0" text="Sair" />
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <Button layoutX="14.0" layoutY="159.0" mnemonicParsing="false" onAction="#voltar" prefHeight="36.0" prefWidth="71.0" text="Voltar" />
+         </children>
+      </Pane>
+      <Pane layoutY="660.0" prefHeight="40.0" prefWidth="1000.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Text layoutX="296.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© COPYRIGHT 2018 - PROCODE LTDA, TODOS OS DIREITOS RESERVADOS." wrappingWidth="412.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="186.0" layoutY="275.0" prefHeight="338.0" prefWidth="629.0">
+         <children>
+            <Text layoutX="60.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Titulo Da Conta:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="60.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data De Vencimento:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="63.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Banco:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="349.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conta:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="62.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor Da Conta:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="349.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data De Pagamento:">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Text>
+            <TextField disable="true" layoutX="63.0" layoutY="47.0" prefHeight="25.0" prefWidth="546.0" />
+            <TextField disable="true" layoutX="63.0" layoutY="109.0" prefHeight="25.0" prefWidth="241.0" />
+            <TextField layoutX="349.0" layoutY="109.0" prefHeight="25.0" prefWidth="241.0" />
+            <ComboBox layoutX="63.0" layoutY="171.0" prefHeight="25.0" prefWidth="241.0" />
+            <ComboBox layoutX="349.0" layoutY="171.0" prefHeight="25.0" prefWidth="241.0" />
+            <TextField disable="true" layoutX="63.0" layoutY="232.0" prefHeight="25.0" prefWidth="241.0" />
+            <Button layoutX="279.0" layoutY="288.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="71.0" text="Confirmar" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
