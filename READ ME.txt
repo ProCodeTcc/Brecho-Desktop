@@ -2,9 +2,26 @@ Implementar o banco de dados a copia do banco se encontra junto no GIT
 
 Configurar o conector mysql que se encontra junto dos arquivos no GIT
 
+  - Abra o projeto Brecho - Desktop
+  - Clique com bot√£o direito em JRE System Library
+  - Posicione o mouse em cima de Build Path
+  - Clique em Configure Build Path...
+  - Clique em mysql-connector-java-5.1.39-bin.jar
+  - Clique em Remove
+  - Clique em Add External JARs...
+  
+O conector se encontra junto ao arquivos baixados pelo GIT
+
+  - Clique em mysql-connector-java-5.1.39-bin.jar
+  - Clique em abrir
+  - Clique em Apply
+  - Clique em OK
+  
+O projeto est√° pronto para ser executado.
+
 Tela de login 
 
-- Usu·rio : teste
-- Senha: 123
+  - Usu√°rio : teste
+  - Senha: 123
 
-Funcionalidades desabilitadas ficar„o para a prÛxima entrega.
+Funcionalidades desabilitadas ficar√£o para a pr√≥xima entrega.
