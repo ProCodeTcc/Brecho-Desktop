@@ -1,0 +1,10 @@
+Implementar o banco de dados a copia do banco se encontra junto no GIT
+
+Configurar o conector mysql que se encontra junto dos arquivos no GIT
+
+Tela de login 
+
+- Usuário : teste
+- Senha: 123
+
+Funcionalidades desabilitadas ficarão para a próxima entrega.
