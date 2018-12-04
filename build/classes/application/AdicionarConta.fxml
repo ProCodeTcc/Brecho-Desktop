@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="332.0" prefWidth="325.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senai.sp.controller.ControllerAdicionarConta">
+   <children>
+      <Text layoutX="42.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adicionar Conta Bancaria" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="17.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Agencia:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtAgencia" layoutX="19.0" layoutY="136.0" prefHeight="25.0" prefWidth="288.0" />
+      <Text layoutX="17.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero da Conta:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtConta" layoutX="18.0" layoutY="194.0" prefHeight="25.0" prefWidth="288.0" />
+      <Text layoutX="18.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digito:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtDigito" layoutX="19.0" layoutY="251.0" prefHeight="25.0" prefWidth="288.0" />
+      <Text layoutX="18.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Banco:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ComboBox fx:id="cbBanco" layoutX="20.0" layoutY="82.0" prefHeight="25.0" prefWidth="288.0" />
+      <Button fx:id="btnFechar" layoutX="131.0" layoutY="286.0" mnemonicParsing="false" onAction="#salvar" prefHeight="37.0" prefWidth="64.0" text="Salvar" />
+   </children>
+</AnchorPane>

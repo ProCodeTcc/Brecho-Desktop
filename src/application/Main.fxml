@@ -20,12 +20,12 @@
             <Font name="System Bold" size="24.0" />
          </font>
       </Text>
+      <PasswordField fx:id="txtSenha" layoutX="304.0" layoutY="445.0" prefHeight="38.0" prefWidth="393.0" promptText="Digite sua senha..." />
       <Button layoutX="447.0" layoutY="521.0" mnemonicParsing="false" onAction="#Autenticar" prefHeight="52.0" prefWidth="108.0" text="Entrar" />
       <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="401.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/logoBrecho.png" />
          </image>
       </ImageView>
-      <PasswordField fx:id="txtSenha" layoutX="304.0" layoutY="445.0" prefHeight="38.0" prefWidth="393.0" promptText="Digite sua senha..." />
    </children>
 </AnchorPane>

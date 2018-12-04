@@ -32,7 +32,7 @@
             </Pane>
             <Pane layoutX="786.0" layoutY="1.0" prefHeight="149.0" prefWidth="200.0">
                <children>
-                  <Text layoutX="60.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="80.13671875">
+                  <Text layoutX="60.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuário" wrappingWidth="80.13671875">
                      <font>
                         <Font size="22.0" />
                      </font>
@@ -48,7 +48,7 @@
                <children>
                   <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="32.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@img/img_1507088258929.png" />
+                        <Image url="@img/compra.png" />
                      </image>
                   </ImageView>
                </children>
@@ -69,7 +69,7 @@
                <children>
                   <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="32.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@img/img_1507088258929.png" />
+                        <Image url="@img/contaPagar.png" />
                      </image>
                   </ImageView>
                </children>
@@ -84,13 +84,13 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Pane>
-      <Pane fx:id="fluxoCaixa" disable="true" layoutX="87.0" layoutY="402.0" onMouseClicked="#abrirFCaixa" opacity="0.3" prefHeight="200.0" prefWidth="200.0">
+      <Pane fx:id="fluxoCaixa" disable="true" layoutX="87.0" layoutY="406.0" onMouseClicked="#abrirFCaixa" opacity="0.32" prefHeight="200.0" prefWidth="200.0">
          <children>
-            <Pane layoutX="31.0" layoutY="11.0" prefHeight="136.0" prefWidth="139.0" style="-fx-border-radius: 100 100 100 100; -fx-background-color: #bcdcdc; -fx-background-radius: 100 100 100 100;">
+            <Pane disable="true" layoutX="31.0" layoutY="11.0" prefHeight="136.0" prefWidth="139.0" style="-fx-border-radius: 100 100 100 100; -fx-background-color: #bcdcdc; -fx-background-radius: 100 100 100 100;">
                <children>
                   <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="32.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@img/img_1507088258929.png" />
+                        <Image url="@img/fluxo.png" />
                      </image>
                   </ImageView>
                </children>
@@ -105,13 +105,13 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Pane>
-      <Pane fx:id="contasReceber" disable="true" layoutX="703.0" layoutY="170.0" onMouseClicked="#abrirCReceber" opacity="0.3" prefHeight="200.0" prefWidth="200.0">
+      <Pane fx:id="contasReceber" layoutX="703.0" layoutY="170.0" onMouseClicked="#abrirCReceber" prefHeight="200.0" prefWidth="200.0">
          <children>
             <Pane layoutX="31.0" layoutY="11.0" prefHeight="136.0" prefWidth="139.0" style="-fx-border-radius: 100 100 100 100; -fx-background-color: #bcdcdc; -fx-background-radius: 100 100 100 100;">
                <children>
                   <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="32.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@img/img_1507088258929.png" />
+                        <Image url="@img/contasReceber.png" />
                      </image>
                   </ImageView>
                </children>
@@ -126,13 +126,13 @@
             <Cursor fx:constant="HAND" />
          </cursor>
       </Pane>
-      <Pane fx:id="conciliacaoBancaria" disable="true" layoutX="394.0" layoutY="402.0" onMouseClicked="#abrirCBancaria" opacity="0.3" prefHeight="208.0" prefWidth="200.0">
+      <Pane fx:id="conciliacaoBancaria" layoutX="394.0" layoutY="402.0" onMouseClicked="#abrirCBancaria" prefHeight="208.0" prefWidth="200.0">
          <children>
             <Pane layoutX="31.0" layoutY="11.0" prefHeight="136.0" prefWidth="139.0" style="-fx-border-radius: 100 100 100 100; -fx-background-color: #bcdcdc; -fx-background-radius: 100 100 100 100;">
                <children>
                   <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="32.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@img/img_1507088258929.png" />
+                        <Image url="@img/conciliacao.png" />
                      </image>
                   </ImageView>
                </children>
@@ -152,13 +152,13 @@
             <Text layoutX="296.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© COPYRIGHT 2018 - PROCODE LTDA, TODOS OS DIREITOS RESERVADOS." wrappingWidth="412.0" />
          </children>
       </Pane>
-      <Pane fx:id="fornecedor" layoutX="703.0" layoutY="402.0" onMouseClicked="#abrirFornecedor" prefHeight="200.0" prefWidth="200.0">
+      <Pane fx:id="fornecedor" layoutX="703.0" layoutY="406.0" onMouseClicked="#abrirFornecedor" prefHeight="200.0" prefWidth="200.0">
          <children>
             <Pane layoutX="31.0" layoutY="11.0" prefHeight="136.0" prefWidth="139.0" style="-fx-border-radius: 100 100 100 100; -fx-background-color: #bcdcdc; -fx-background-radius: 100 100 100 100;">
                <children>
                   <ImageView fitHeight="75.0" fitWidth="100.0" layoutX="32.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@img/img_1507088258929.png" />
+                        <Image url="@img/Fornecedor.png" />
                      </image>
                   </ImageView>
                </children>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="347.0" prefWidth="383.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senai.sp.controller.ControllerAdicionarBanco">
+   <children>
+      <Text layoutX="116.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Adicionar Banco" textAlignment="CENTER">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Text layoutX="15.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome do Banco:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TextField fx:id="txtNome" layoutX="14.0" layoutY="82.0" prefHeight="25.0" prefWidth="359.0" promptText="Digite o Nome do Banco..." />
+      <Button layoutX="160.0" layoutY="305.0" mnemonicParsing="false" onAction="#salvar" prefHeight="37.0" prefWidth="64.0" text="Salvar" />
+      <TableView fx:id="tblBanco" layoutX="12.0" layoutY="125.0" prefHeight="174.0" prefWidth="359.0">
+        <columns>
+          <TableColumn fx:id="colunId" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="colunBanco" prefWidth="283.0" text="Bancos" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

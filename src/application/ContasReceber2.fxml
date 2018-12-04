@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senai.sp.controller.ControllerContasReceber">
+   <children>
+      <Text layoutX="339.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONTAS A RECEBER" textAlignment="CENTER" wrappingWidth="322.78125">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Text>
+      <TableView layoutX="15.0" layoutY="206.0" prefHeight="405.0" prefWidth="970.0">
+         <columns>
+            <TableColumn prefWidth="78.0" text="ID" />
+            <TableColumn minWidth="6.0" prefWidth="346.0" text="Conta a Receber" />
+            <TableColumn prefWidth="203.0" text="Data de Vencimento" />
+            <TableColumn prefWidth="106.0" text="Valor" />
+            <TableColumn prefWidth="122.0" text="Data de Pagamento" />
+            <TableColumn prefWidth="114.0" text="Baixas" />
+         </columns>
+      </TableView>
+      <Button layoutX="14.0" layoutY="159.0" mnemonicParsing="false" onAction="#voltar" prefHeight="40.0" prefWidth="69.0" text="Voltar" />
+      <Pane prefHeight="149.0" prefWidth="1000.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/logoBrecho.png" />
+               </image>
+            </ImageView>
+            <Pane layoutX="290.0" layoutY="37.0" prefHeight="75.0" prefWidth="420.0">
+               <children>
+                  <Text layoutX="13.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bem vindo(a) ao Sistema da Empresa!" wrappingWidth="394.0">
+                     <font>
+                        <Font name="System Bold" size="22.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="786.0" layoutY="1.0" prefHeight="149.0" prefWidth="200.0">
+               <children>
+                  <Text layoutX="60.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="80.13671875">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="57.0" layoutY="75.0" mnemonicParsing="false" prefHeight="46.0" prefWidth="87.0" text="Sair" />
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+      <Pane layoutY="660.0" prefHeight="40.0" prefWidth="1000.0" style="-fx-background-color: #dcdcdc;">
+         <children>
+            <Text layoutX="296.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© COPYRIGHT 2018 - PROCODE LTDA, TODOS OS DIREITOS RESERVADOS." wrappingWidth="412.0" />
+         </children>
+      </Pane>
+      <Button layoutX="466.0" layoutY="616.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="69.0" text="Baixa" />
+   </children>
+</AnchorPane>

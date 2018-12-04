@@ -7,7 +7,7 @@
 <?import javafx.scene.text.*?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.senai.sp.controller.ControllerBaixaPagar">
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Pane>
          <children>
@@ -52,7 +52,7 @@
             <Text layoutX="296.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" text="© COPYRIGHT 2018 - PROCODE LTDA, TODOS OS DIREITOS RESERVADOS." wrappingWidth="412.0" />
          </children>
       </Pane>
-      <Pane layoutX="186.0" layoutY="275.0" prefHeight="338.0" prefWidth="629.0">
+      <Pane layoutX="186.0" layoutY="275.0" prefHeight="313.0" prefWidth="629.0">
          <children>
             <Text layoutX="60.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Titulo Da Conta:">
                <font>
@@ -64,17 +64,17 @@
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text layoutX="63.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Banco:">
+            <Text layoutX="63.0" layoutY="161.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Banco:">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text layoutX="349.0" layoutY="161.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conta:">
+            <Text layoutX="349.0" layoutY="161.0" opacity="0.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Conta:">
                <font>
                   <Font size="20.0" />
                </font>
             </Text>
-            <Text layoutX="62.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor Da Conta:">
+            <Text layoutX="62.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Valor Da Conta:">
                <font>
                   <Font size="20.0" />
                </font>
@@ -84,13 +84,13 @@
                   <Font size="20.0" />
                </font>
             </Text>
-            <TextField disable="true" layoutX="63.0" layoutY="47.0" prefHeight="25.0" prefWidth="546.0" />
-            <TextField disable="true" layoutX="63.0" layoutY="109.0" prefHeight="25.0" prefWidth="241.0" />
-            <TextField layoutX="349.0" layoutY="109.0" prefHeight="25.0" prefWidth="241.0" />
-            <ComboBox layoutX="63.0" layoutY="171.0" prefHeight="25.0" prefWidth="241.0" />
-            <ComboBox layoutX="349.0" layoutY="171.0" prefHeight="25.0" prefWidth="241.0" />
-            <TextField disable="true" layoutX="63.0" layoutY="232.0" prefHeight="25.0" prefWidth="241.0" />
-            <Button layoutX="279.0" layoutY="288.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="71.0" text="Confirmar" />
+            <TextField fx:id="txtTitulo" disable="true" layoutX="63.0" layoutY="47.0" prefHeight="25.0" prefWidth="546.0" />
+            <TextField fx:id="txtVerncimento" disable="true" layoutX="63.0" layoutY="109.0" prefHeight="25.0" prefWidth="241.0" />
+            <TextField fx:id="txtPagamento" layoutX="349.0" layoutY="109.0" prefHeight="25.0" prefWidth="241.0" promptText="00/00/0000" />
+            <ComboBox fx:id="cbBanco" disable="true" layoutX="63.0" layoutY="171.0" opacity="0.0" prefHeight="25.0" prefWidth="241.0" />
+            <ComboBox fx:id="cbConta" disable="true" layoutX="349.0" layoutY="171.0" opacity="0.0" prefHeight="25.0" prefWidth="241.0" />
+            <TextField fx:id="txtValor" disable="true" layoutX="63.0" layoutY="179.0" prefHeight="25.0" prefWidth="241.0" />
+            <Button layoutX="279.0" layoutY="259.0" mnemonicParsing="false" onAction="#pagar" prefHeight="36.0" prefWidth="71.0" text="Confirmar" />
          </children>
       </Pane>
    </children>

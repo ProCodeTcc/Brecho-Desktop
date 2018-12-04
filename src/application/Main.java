@@ -29,6 +29,7 @@ public class Main extends Application {
 
 			primaryStage.setScene(sc);
 			primaryStage.show();
+			primaryStage.setResizable(false);
 
 			}catch(Exception ex){
 				ex.printStackTrace();
@@ -86,6 +87,10 @@ public class Main extends Application {
 			}
 		}
 
+		public void exit(){
+		   primaryStage.close();
+		}
+		
 		@FXML
 		public void entrar(){
 			Main.abrirTela("Menu");

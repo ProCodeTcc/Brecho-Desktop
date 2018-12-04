@@ -19,12 +19,12 @@
       <Button layoutX="915.0" layoutY="158.0" mnemonicParsing="false" onAction="#Adicionar" prefHeight="38.0" prefWidth="71.0" text="Adicionar" />
       <TableView fx:id="tblFornecedor" layoutX="15.0" layoutY="206.0" prefHeight="408.0" prefWidth="971.0">
          <columns>
-            <TableColumn fx:id="colunId" prefWidth="41.0" text="ID" />
-            <TableColumn fx:id="colunFornecedor" minWidth="6.0" prefWidth="209.0" text="Fornecedores" />
-            <TableColumn fx:id="colunTelefone" prefWidth="88.0" text="Telefone" />
-            <TableColumn fx:id="colunCelular" prefWidth="110.0" text="Celular" />
-            <TableColumn fx:id="colunEmail" prefWidth="182.0" text="E-mail" />
-            <TableColumn fx:id="colunCnpj" prefWidth="172.0" text="CNPJ" />
+            <TableColumn fx:id="colunId" prefWidth="62.0" text="ID" />
+            <TableColumn fx:id="colunFornecedor" minWidth="6.0" prefWidth="352.0" text="Fornecedores" />
+            <TableColumn fx:id="colunTelefone" prefWidth="134.0" text="Telefone" />
+            <TableColumn fx:id="colunCelular" prefWidth="128.0" text="Celular" />
+            <TableColumn fx:id="colunEmail" prefWidth="166.0" text="E-mail" />
+            <TableColumn fx:id="colunCnpj" prefWidth="128.0" text="CNPJ" />
          </columns>
       </TableView>
       <Pane prefHeight="149.0" prefWidth="1000.0" style="-fx-background-color: #dcdcdc;">
@@ -45,7 +45,7 @@
             </Pane>
             <Pane layoutX="786.0" layoutY="1.0" prefHeight="149.0" prefWidth="200.0">
                <children>
-                  <Text layoutX="60.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuario" wrappingWidth="80.13671875">
+                  <Text layoutX="60.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Usuário" wrappingWidth="80.13671875">
                      <font>
                         <Font size="22.0" />
                      </font>
