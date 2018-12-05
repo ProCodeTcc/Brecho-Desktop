@@ -21,7 +21,7 @@ O projeto está pronto para ser executado.
 
 Tela de login 
 
-  - Usuário : teste
-  - Senha: 123
+  - Usuário : admin
+  - Senha: admin
 
-Funcionalidades desabilitadas ficarão para a próxima entrega.
+Funcionalidades desabilitadas não estão concluidas.
